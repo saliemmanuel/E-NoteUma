@@ -45,13 +45,20 @@ Helper::estConnecter($_SESSION);
                             <?php echo $etudiant->getDateNaiss();
                             echo ' <strong> A </strong>' . $etudiant->getLieuNaiss() ?></p>
                         <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>NUMEROS DE TELEPHONE :</strong>
-                            <?= $etudiant->getNumTel() ?>&nbsp &nbsp <a href=""><img src="../../img/edite.svg" alt=""> </a> </p>
+                            <?= $etudiant->getNumTel() ?>&nbsp &nbsp <a href="">
+                                <!-- <img src="../../img/edite.svg" alt=""> -->
+
+                            </a> </p>
                         <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>EMAIL :</strong>
-                            <?= $etudiant->getEmail() ?> &nbsp &nbsp <a href=""><img src="../../img/edite.svg" alt=""></a>
+                            <?= $etudiant->getEmail() ?> &nbsp &nbsp <a href="">
+                                <!-- <img src="../../img/edite.svg" alt=""> -->
+                            </a>
                             </button> </p>
-                        <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>MOT DE PASSE :</strong>
-                            &nbsp &nbsp <a href=""><img src="../../img/edite.svg" alt=""></a>
-                            </button> </p>
+                        <!-- <p> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <strong>MOT DE PASSE :</strong> -->
+                        <!-- &nbsp &nbsp <a href=""> -->
+                        <!-- <img src="../../img/edite.svg" alt=""> -->
+                        </a>
+                        </button> </p>
                         <br>
                     <?php
                     }
