@@ -1,6 +1,5 @@
 <?php
 
-
 class Administrateur extends Users
 {
 
